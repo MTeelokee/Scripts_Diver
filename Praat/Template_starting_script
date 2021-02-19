@@ -20,7 +20,7 @@ form # Name of the form to add here -------------------
 	sentence pathFolderSound "---------------"
 	comment Folder where the results will be exported ( The folder must exist )
 	sentence pathFolderResults "-------------"
-	comment File name "-------------"
+	comment File name 
 	sentence fileName results
 endform
 
