@@ -1,0 +1,28 @@
+##################################################################
+##################################################################
+#				
+#                Author : MEVINE TEELOKEE 		
+# 
+#			Script info : -------------------------			
+#								
+#	             
+#           Date of last version : ---------------
+#	
+#						
+##################################################################
+##################################################################
+
+
+# From used to collect input from the user as variable
+
+form # Name of the form to add here -------------------
+	comment Folder which contain sound files to analyze
+	sentence pathFolderSound 
+	comment Folder where the results will be exported ( The folder must exist )
+	sentence pathFolderResults 
+	comment File name
+	sentence fileName results
+endform
+
+
+
