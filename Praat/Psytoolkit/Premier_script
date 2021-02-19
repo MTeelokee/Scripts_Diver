@@ -1,0 +1,54 @@
+bitmaps
+feu
+cafe
+soleil
+instruction
+merci
+
+sounds
+feu1
+seu1
+cheu1
+cafe1
+casse1
+cache1
+soleil1
+foleil1
+choleil1
+instruction_fr_1
+
+
+table my_sounds
+seu1 feu 1 "feu"
+cheu1 feu 1 "feu"
+feu1 feu 1 "feu"
+casse1 cafe 1 "café"
+cache1 cafe 1 "café"
+cafe1 cafe 1 "café"
+foleil1 soleil 1 "soleil"
+choleil1 soleil 1 "soleil"
+soleil1 soleil 1 "soleil"
+
+
+task my_task
+keys space
+table my_sounds
+show bitmap @2
+delay 500
+sound @1
+readkey @3 9000
+clear -1
+silence @1
+delay 1800
+clear -1
+save TASKNAME TABLEROW @4 RT STATUS
+
+block test
+sound instruction_fr_1
+message instruction
+tasklist
+my_task 9
+end
+
+
+message merci 
